@@ -121,3 +121,14 @@ console.log(`
   1. Crear 2 variables cada una deberia tener un dato especifico (name, age)
   2. Escribir un console.log con el siguiente resultado "Hola me llamo null y tengo undefined años"
 `)
+
+let myName = "Ezequiel";
+let myAge = "43";
+let myNationality = "argentina";
+
+console.log(`Hola, me llamo ${myName}, el doble de mi edad es ${myAge*2}`);
+
+myName = null
+myAge = undefined
+
+console.log(`Hola, me llamo ${myName} y tengo ${myAge} años.`);

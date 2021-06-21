@@ -80,3 +80,18 @@ console.log(`
 2. Escribir 4 console.log armando una frase con cada una de las variable.
 3. Escribir 2 console.log armando una fase usando 2 o mas variables
 `)
+
+let myName = "Ezequiel";
+let mySurname = "Cardoso";
+let myAge = "43";
+let myNationality = "argentina";
+let myPetName = "blanquito";
+
+console.log(`Mi nombre es ${myName}.`);
+console.log(`Mi apellido es ${mySurname}.`);
+console.log(`Mi nacionalidad es ${myNationality}.`);
+console.log(`El nombre de mi mascota es ${myPetName}.`);
+console.log(`Mi nombre es ${myName} y mi apellido es ${mySurname}.`);
+console.log(`Mi edad es ${myAge} años y mi mascota se llama ${myPetName}.`);
+
+
